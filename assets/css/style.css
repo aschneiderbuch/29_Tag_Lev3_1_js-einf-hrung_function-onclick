@@ -5,10 +5,10 @@ h1 {
 }
 
 section {
-  background-color: red;
   display: flex;
   justify-content: center;
-  column-gap: 1vw;
+  column-gap: 4vw;
+  padding-top: 25vh;
 }
 section button {
   width: 10vw;
@@ -24,22 +24,22 @@ section button:active {
 
 #buttonGrünRot {
   background-color: green;
-  background-image: linear-gradient(225deg, red 50%, transparent 25%);
+  background-image: linear-gradient(225deg, red 50%, green 50%);
 }
 
 #buttonGrauGelb {
   background-color: gray;
-  background-image: linear-gradient(225deg, yellow 50%, transparent 25%);
+  background-image: linear-gradient(225deg, yellow 50%, grey 50%);
 }
 
 #buttonSchwarzOrange {
   background-color: black;
-  background-image: linear-gradient(225deg, orange 50%, transparent 25%);
+  background-image: linear-gradient(225deg, orange 50%, black 50%);
 }
 
 #buttonDunkelBlauHellBlau {
   background-color: blue;
-  background-image: linear-gradient(225deg, rgb(95, 149, 224) 50%, transparent 25%);
+  background-image: linear-gradient(225deg, rgb(95, 149, 224) 50%, blue 50%);
 }
 
 /*# sourceMappingURL=style.css.map */
