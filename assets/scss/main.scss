@@ -1,3 +1,24 @@
-h1{
-    color:green
+h1 {
+    color: green
 }
+
+section {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    column-gap: 1vw;
+
+    button {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50vw;
+
+        &:hover {
+            box-shadow: 10px 20px 20px yellowgreen;
+
+    }
+    &:active{
+        box-shadow: 10px 20px 20px rgb(205, 153, 50);
+
+    }
+}}
